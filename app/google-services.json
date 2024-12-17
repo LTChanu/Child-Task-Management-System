@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "208471293961",
+    "project_id": "child-task",
+    "storage_bucket": "child-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208471293961:android:a3572e82134f72760bb8d8",
+        "android_client_info": {
+          "package_name": "com.chanu.childtask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208471293961-q7lhj0v6h663vd9pg8hk2gg232ea9aac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4JpeuG30sYovFVCZfxThtO_CKtKFmlII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208471293961-q7lhj0v6h663vd9pg8hk2gg232ea9aac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

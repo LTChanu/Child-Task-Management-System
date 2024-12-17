@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".About">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:text="@string/about"
+            android:textAlignment="center"
+            android:textColor="#0CF6E3"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            tools:ignore="MissingConstraints"
+            android:layout_height="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="KidConnect: Empowering Parent-Child Collaboration\n\nWelcome to KidConnect, the dynamic application that strengthens the bond between parents and children. Developed as part of my project for the &quot;EEI4369 - Mobile Application Development for Android&quot; course during my second year at The Open University of Sri Lanka, KidConnect is the brainchild of PLT Chanuka, a passionate student committed to fostering seamless communication in families.\n\nWith KidConnect, communication between parents and children reaches new heights. Let's explore the exciting features that make KidConnect a game-changer:\n\nStay Connected, Anytime: KidConnect acts as a virtual bridge, ensuring parents and children are always connected. Through the app, parents can effortlessly access their children's daily schedules, gaining valuable insights into their activities and commitments.\n\nReal-Time Location Sharing: Worried about your child's whereabouts? KidConnect has you covered. Our app utilizes cutting-edge technology to provide real-time updates on your child's location. Stay informed and enjoy peace of mind knowing your child is safe.\n\nInteractive Task Management: KidConnect simplifies task management by fostering interaction between parents and children. Parents can easily comment and provide feedback on their children's tasks, promoting collaboration and growth.\n\nPersonalized Experience: KidConnect understands that each family is unique. With customizable settings, parents can tailor the app to suit their specific needs. From setting reminders to creating personalized profiles for each child, KidConnect ensures a personalized experience for every user.\n\nEmbark on this exciting journey with KidConnect and experience the joy of enhanced parent-child relationships. Download the app today and witness the transformative power of effective communication.\n\nRemember, KidConnect is more than an app; it's a catalyst for stronger family connections. Join us in revolutionizing parent-child communication and create lasting memories with your loved ones.\n\nDiscover the power of KidConnect now!"
+                android:textSize="16sp"
+                tools:ignore="VisualLintLongText" />
+
+        </ScrollView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/linkdin"
+            android:drawablePadding="8dp"
+            android:onClick="openLinkedIn"
+            android:text="@string/find_me_on_linkedin"
+            android:textColor="#8C9EFF"
+            tools:ignore="UsingOnClickInXml" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
